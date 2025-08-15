@@ -11,6 +11,6 @@ The Excel file was then converted to csv file.
 
 The csv file is then read by the python script -- plot_data.py -- line by line and plotted using the library MatPlotLib, updated every 1 second.
 
-Note that here the duplicate values are removed and not plotted repeatedly to keep Franklin invested.
+**Note that here the duplicate values are removed and not plotted repeatedly to keep Franklin invested.**
 
 To plot Duplicates as given in the original Data, replace 'Raw_Test_Flight_Data_25_Without_Duplicates.csv' in the python script with 'Raw_Test_Flight_Data_25.csv'.

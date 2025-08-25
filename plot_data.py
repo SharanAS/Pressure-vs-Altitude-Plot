@@ -3,13 +3,15 @@ from matplotlib.animation import FuncAnimation
 import pandas as pd
 from itertools import count
 
-# Load CSV data
+# Load excel data
 pressure_data = pd.read_excel('Raw_Test_Flight_Data_25.xlsx')
 
 counter = count(start=0, step=1)
 
 # Set up plot
 fig, ax = plt.subplots()
+
+# Setting up variables to store plot data
 x_plot = []
 y_plot = []
 velocity = [0]
